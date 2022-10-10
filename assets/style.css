@@ -1,0 +1,390 @@
+.content {
+  padding: 0 124px;
+  max-width: 1397px;
+}
+
+.img-bg {
+  z-index: -10;
+}
+
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* Navbar */
+.navbar,
+a {
+  font-size: 14px;
+}
+
+a.nav-link {
+  color: black;
+}
+
+.nav {
+  margin-right: 100px;
+}
+
+.me-nav {
+  margin-right: 70px;
+}
+
+.navbar-toggler {
+  padding: 0;
+}
+
+/* Hero Section */
+.text-hero {
+  padding: 90px 100px 0 0;
+}
+
+.p-hero {
+  padding-right: 50px;
+}
+
+.btn {
+  color: white;
+  background-color: #5cb85f;
+  padding: px 15px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.img-car {
+  position: absolute;
+  right: 0px;
+}
+
+/* Our Services */
+#Our-Services {
+  margin-top: 130px;
+}
+
+.img-service {
+  padding-right: 70px;
+}
+
+.text-services {
+  padding: 45px 95px 0 0;
+}
+
+.list-services {
+  padding: 0.05cm 0 0 5px;
+}
+
+/* Why Us */
+.box {
+  width: 280px;
+  height: 196px;
+}
+
+/* Testimony */
+.testi {
+  background-color: #f1f3ff;
+  padding: 60px 20px;
+  width: 619px;
+  height: 270px;
+}
+
+.star {
+  width: 16px;
+}
+
+.img-review {
+  margin-top: 10px;
+}
+
+.text-testi {
+  margin: 0;
+}
+
+.btn-slider button {
+  width: 34px;
+  height: 34px;
+}
+
+.btn-previous {
+  background-color: white;
+}
+
+/* CTA Banner */
+#Cta-Banner {
+  width: 100%;
+  height: 328px;
+  padding: 60px;
+  margin: 70px 0 90px;
+  background-color: #0d28a6;
+}
+
+.p-banner {
+  width: 50%;
+}
+
+.btn-banner {
+  margin-top: 35px;
+}
+
+/* FAQ */
+.border-grey {
+  border: 1px solid #d4d4d4;
+}
+
+/* Footer */
+.footer-link {
+  padding: 0;
+  width: 267px;
+}
+
+a,
+.footer-link {
+  color: black;
+  padding: 0 0 15px 0;
+  font-size: 14px;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .content {
+    padding: 0;
+  }
+
+  .img-bg {
+    height: 535px;
+  }
+
+  /* Header Nav */
+  /* Hero Section */
+  .img-car {
+    position: absolute;
+    right: 0px;
+    width: 360px;
+    margin-top: 25px;
+    z-index: -1;
+  }
+
+  .text-hero {
+    padding: 0 10px 0 15px;
+  }
+
+  .p-hero {
+    padding-right: 0px;
+  }
+
+  /* Our services */
+  #our-services {
+    padding: 0;
+    margin: 0;
+  }
+
+  .image-services {
+    margin-top: 150px;
+    width: 252px;
+  }
+
+  .text-services {
+    padding: 20px 30px 0 20px;
+  }
+
+  .list-services {
+    padding: 1px 0 0 20px;
+  }
+  /* Why Us */
+  #why-us {
+    margin: 0;
+  }
+
+  .why-us-description {
+    text-align: center;
+  }
+
+  .why {
+    padding: 0 16px;
+  }
+
+  .box {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  /* Testimony */
+  .testimonial {
+    padding: 0 16px;
+  }
+
+  .testi {
+    padding: 5px 30px 0;
+    width: 100%;
+    height: 392px;
+  }
+
+  .div-star {
+    text-align: center;
+  }
+
+  .testi-align {
+    text-align: left;
+  }
+
+  .div-testi-img {
+    height: 90px;
+  }
+  /* CTA Banner */
+  #Cta-Banner {
+    height: 420px;
+    width: 92%;
+    margin: 50px 0 0 16px;
+  }
+
+  #Cta-banner,
+  h1 {
+    font-size: 24px;
+  }
+
+  .text-banner {
+    padding: 15px 5px 0 5px;
+  }
+
+  /* FAQ */
+  #Faq {
+    margin: 40px 0 0 0;
+  }
+
+  .faq-title {
+    font-size: 24px;
+  }
+
+  .faq-description {
+    padding: 10px 10px 0;
+    font-size: 14px;
+  }
+  /* Footer */
+  .footer {
+    padding: 0 16px 0 0;
+    margin: 0;
+  }
+}
+
+/* Cari Mobil */
+.footer-cari-mobil {
+  margin: 280px 0 0 40px;
+}
+
+.pencarian {
+  position: absolute;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 80px auto;
+  width: 1047px;
+  height: 108px;
+  background-color: white;
+}
+
+td {
+  padding: 0 7px;
+}
+
+.form-select {
+  padding: 8px;
+  width: 230px;
+  font-size: 12px;
+}
+
+.form-select.cari-mobil {
+  padding: 8px;
+  width: 212px;
+  font-size: 12px;
+}
+
+select {
+  font-size: 12px;
+}
+
+option {
+  width: 100px;
+  font-size: 12px;
+  margin: 100px 0 0 0;
+}
+
+.harga {
+  font-size: 50px;
+}
+
+/* Hasil Pencarian */
+.img-bg-hasilPencarian {
+  height: 266px;
+}
+
+#pencarian {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 125px auto 20px;
+  width: 1047px;
+  height: 142px;
+  background-color: white;
+}
+
+a.btn-hasil-pencarian {
+  background-color: white;
+}
+
+.hasil-mobil {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 20px auto 0;
+  width: 1047px;
+}
+
+.mobil-card {
+  width: 333px;
+}
+
+.card-img-top {
+  padding: 20px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.card-text {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+}
+
+/* Detail Mobil */
+#detail {
+  font-size: 14px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 30px auto 0;
+  width: 1047px;
+  height: auto;
+  background-color: white;
+}
+
+.img-detail {
+  width: 270px;
+}
