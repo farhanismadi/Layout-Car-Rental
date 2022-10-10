@@ -388,3 +388,11 @@ a.btn-hasil-pencarian {
 .img-detail {
   width: 270px;
 }
+
+.detail-car-name {
+  margin: 0;
+}
+
+.detail-car-des {
+  font-size: 10px;
+}
