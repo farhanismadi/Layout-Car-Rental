@@ -98,27 +98,35 @@
         <table>
           <tr>
             <td>
-              <label class="form-label col-form-label-sm p-0 m-0"
+              <label
+                class="form-label col-form-label-sm p-0 m-0 text-pencarian-mobil"
                 >Nama Mobil</label
               >
             </td>
             <td>
-              <label class="form-label col-form-label-sm p-0 m-0"
+              <label
+                class="form-label col-form-label-sm p-0 m-0 text-pencarian-mobil"
                 >Kategori</label
               >
             </td>
             <td>
-              <label class="form-label col-form-label-sm p-0 m-0">Harga</label>
+              <label
+                class="form-label col-form-label-sm p-0 m-0 text-pencarian-mobil"
+                >Harga</label
+              >
             </td>
             <td>
-              <label class="form-label col-form-label-sm p-0 m-0">Status</label>
+              <label
+                class="form-label col-form-label-sm p-0 m-0 text-pencarian-mobil"
+                >Status</label
+              >
             </td>
             <td></td>
           </tr>
           <tr>
             <td>
               <input
-                class="form-control form-control-sm"
+                class="form-control form-control-sm detail-mobil"
                 type="text"
                 name=""
                 id=""
@@ -129,7 +137,7 @@
             <td>
               <select
                 id="katogori"
-                class="form-select form-select-sm"
+                class="form-select form-select-sm detail-mobil"
                 aria-label=".form-select-sm example"
                 disabled
               >
@@ -142,7 +150,7 @@
             <td>
               <select
                 id="harga"
-                class="form-select form-select-sm"
+                class="form-select form-select-sm detail-mobil"
                 aria-label=".form-select-sm example"
                 disabled
               >
@@ -155,19 +163,14 @@
             <td>
               <select
                 id="ststus"
-                class="form-select form-select-sm"
+                class="form-select form-select-sm detail-mobil"
                 aria-label=".form-select-sm example"
                 disabled
               >
                 <option selected>Disewa</option>
               </select>
             </td>
-            <td>
-              <a
-                class="btn-hasil-pencarian btn btn-outline-primary text-primary fw-bold"
-                >Edit</a
-              >
-            </td>
+            <td></td>
           </tr>
         </table>
       </div>
@@ -196,9 +199,10 @@
                 </li>
                 <li>Tidak termasuk akomodasi penginapan</li>
               </ul>
-              <p class="fw-bold m-0">
-                Refund, Reschedule, Overtime
+              <div class="d-flex">
+                <p class="fw-bold m-0 p-0">Refund, Reschedule, Overtime</p>
                 <a
+                  class="ms-auto"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseExample"
@@ -206,7 +210,7 @@
                   aria-controls="collapseExample"
                   ><img src="assets/images/fi_chevron-up.png" alt=""
                 /></a>
-              </p>
+              </div>
               <div class="collapse" id="collapseExample">
                 <ul>
                   <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
@@ -245,7 +249,10 @@
                 <p class="detail-car-des">
                   <img src="assets/images/fi_users.png" alt="" />6 - 8 orang
                 </p>
-                <h5 class="card-title fw-bold pb-5">Total Rp 500.000</h5>
+                <div class="d-flex">
+                  <h5 class="card-title fw-bold pb-5">Total</h5>
+                  <h5 class="card-title fw-bold pb-5 ms-auto">Rp 500.000</h5>
+                </div>
               </div>
             </div>
           </div>

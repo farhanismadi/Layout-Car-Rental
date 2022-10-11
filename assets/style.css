@@ -58,10 +58,10 @@ a.nav-link {
   padding-right: 50px;
 }
 
-.btn {
+.btn-green {
   color: white;
   background-color: #5cb85f;
-  padding: px 15px;
+  padding: 5px 15px;
   border-radius: 2px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -88,7 +88,9 @@ a.nav-link {
 }
 
 .list-services {
-  padding: 0.05cm 0 0 5px;
+  padding: 0;
+  font-size: 14px;
+  list-style-type: none;
 }
 
 /* Why Us */
@@ -202,10 +204,6 @@ a,
 
   .text-services {
     padding: 20px 30px 0 20px;
-  }
-
-  .list-services {
-    padding: 1px 0 0 20px;
   }
   /* Why Us */
   #why-us {
@@ -343,8 +341,8 @@ option {
   background-color: white;
 }
 
-a.btn-hasil-pencarian {
-  background-color: white;
+.text-pencarian-mobil {
+  color: #b6b6b6;
 }
 
 .hasil-mobil {
@@ -395,4 +393,8 @@ a.btn-hasil-pencarian {
 
 .detail-car-des {
   font-size: 10px;
+}
+
+.detail-mobil {
+  width: 237px;
 }
